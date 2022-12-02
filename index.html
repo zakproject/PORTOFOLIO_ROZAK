@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <title>Rozak - Homepage</title>
+</head>
+<body>
+    <!-- nav section start  -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-light sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Portofolio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/about">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Others
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="/contact">Contact</a></li>
+                  <li><a class="dropdown-item" href="/gallery">Gallery</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="/sosmed">Sosmed</a></li>
+                </ul> 
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <!-- nav section end -->
+
+    <!-- first layout start -->
+    <div class="container-fluid bg-dark text-light" style="height: 100%;">
+        <!-- carausel images -->
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" >
+                <img src="asset/13.png" class="d-block w-100" alt="images first bio" style="height: 500px">
+                <div class="carousel-caption">
+                  <h5>Project Web</h5>
+                  <p>Membuat Project Website Toko Pd Subur Bandung Caringin</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="asset/14.png" class="d-block w-100" alt="images second bio"style="height: 500px">
+                <div class="carousel-caption  text-dark">
+                  <h5>Tampilan Website</h5>
+                  <p>Tampilan Website Toko PD SUBUR </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="asset/6.jpg" class="d-block w-100" alt="images three bio"style="height: 500px">
+                <div class="carousel-caption" >
+                  <h5>Gunung Canggah</h5>
+                  <p>Menjelajah Di Gunung Canggah Subang 2022</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        <!-- end of carausel images -->
+
+        <div class="row text-center align-items-center text-dark mt-4">
+          <div class="col-12" >
+
+            <img src="asset/7.jpg" width="150" height="150"/>
+            <h2 class="mt-2" style="color:white ;">✨Mohamad Rozak ✨</h2>
+            <i style="color:white ;">Ini PortoPolio <span style="color:coral"> Project </span> Yang Saya Buat </i>
+          </div>
+        </div>
+        <div class="row text-dark mt-4">
+          <div class="col-sm-4 g-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title text-center">DATA PRIBADI</h5>
+                <p class="card-text">NAMA         : Mohamad Rozak</p>
+                <p class="card-text">Umur         : 20 Tahun</p>
+                <p class="card-text">Alamat       : Kp.Limaratus Kecamatan Kasomalang Kabupaten Subang</p>
+                <p class="card-text">Status Nikah : Belum Nikah</p>
+                <a href="#" class="btn btn-dark d-block">CEK</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 g-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title text-center">PENDIDIKAN</h5>
+                <p class="card-text">SDN DARMAGA 4</p>
+                <p class="card-text">SMPN 1 CISALAK</p>
+                <p class="card-text">SMK BINA TARUNA</p>
+                <p class="card-text">UNIVERSITAS MANDIRI</p>
+                <a href="#" class="btn btn-dark d-block">CEK</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 g-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title text-center">PENGALAMAN ORGANISASI</h5>
+                <p class="card-text">OSIS SMPN 1 CISALAK</p>
+                <p class="card-text">TEKNISI DI SMK BINA TARUNA</p>
+                <p class="card-text">WAKIL KETUA HIMPUNAN MAHASISWA TEKNIK INFORMATIKA</p>
+                <a href="#" class="btn btn-dark d-block">CEK</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- first layout end -->
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
